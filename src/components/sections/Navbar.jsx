@@ -32,6 +32,9 @@ export default function Navbar() {
       style={{
         background: 'linear-gradient(90deg, #0038A8 0%, #7997D1 69.27%, #F0F4FA 100%)',
         height: '126px',
+        position: 'sticky',
+        top: 0,
+        zIndex: 50,
       }}
     >
       {/* Logo */}
